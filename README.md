@@ -9,7 +9,7 @@ A dictionary website using react ts and firebase.
 Congratulations for finding this repository.
 
 The project using vite+react+typescipt with 
-package : firebase(firebase auth,firebase function, google vision)
+package : react-router-dom, firebase(firebase auth,firebase function, google vision)
 using the following api
 dictionaryapi.dev
 openai api
