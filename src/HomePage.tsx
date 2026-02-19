@@ -2,6 +2,7 @@ import { signOut, type User } from "firebase/auth";
 import { auth } from "./firebase";
 import { useNavigate } from "react-router-dom";
 import TextSearch from "./components/TextSearch";
+import ImageSearch from "./components/ImageSearch";
 
 
 export function HomePage( {user}:{user:User} ){
@@ -22,6 +23,7 @@ export function HomePage( {user}:{user:User} ){
 
             <div className="dictionary-features">
                 <TextSearch/>
+                <ImageSearch onAddWord={ ()=>{}}/>
             </div>
         </div>
             

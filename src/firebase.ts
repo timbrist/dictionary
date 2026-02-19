@@ -23,5 +23,5 @@ const firebaseConfig = {
 
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-// export const db = getFirestore(app, "ai-dictionary");
-// export const functions = getFunctions(app, "europe-west3");
+export const db = getFirestore(app, "ai-dictionary");
+export const functions = getFunctions(app, "europe-west3");

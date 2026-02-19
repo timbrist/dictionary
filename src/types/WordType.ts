@@ -18,3 +18,9 @@ export type DictionaryEntry = {
     definitions: { definition: string; example?: string }[];
   }[];
 };
+
+// the word that stored on firestore
+export type WordEntry = {
+  word: string;
+  meaning?: string;
+};
