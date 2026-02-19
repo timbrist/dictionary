@@ -1,6 +1,7 @@
 import { signOut, type User } from "firebase/auth";
 import { auth } from "./firebase";
 import { useNavigate } from "react-router-dom";
+import TextSearch from "./components/TextSearch";
 
 
 export function HomePage( {user}:{user:User} ){
@@ -19,7 +20,9 @@ export function HomePage( {user}:{user:User} ){
                 <button onClick={ handleLogout}>Logout</button>
             </div>
 
-
+            <div className="dictionary-features">
+                <TextSearch/>
+            </div>
         </div>
             
         </>
