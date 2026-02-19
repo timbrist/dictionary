@@ -185,6 +185,7 @@ export function ImageSearch({ onAddWord }: ImageSearchProps) {
 const styles: Record<string, React.CSSProperties> = {
   page: {
     display: "grid",
+    placeItems: "center",
     gap: 12,
     width: "min(900px, 96vw)",
     margin: "20px auto",
@@ -206,7 +207,7 @@ const styles: Record<string, React.CSSProperties> = {
     fontWeight: 600,
   },
   addAllButton: {
-    justifySelf: "start",
+    justifySelf: "center",
     border: "none",
     borderRadius: 10,
     padding: "9px 12px",

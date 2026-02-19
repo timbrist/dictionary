@@ -63,6 +63,7 @@ export default function TextSearch({ onAddWord }: TextSearchProps) {
 
   return (
     <div style={styles.page}>
+        <h2> English Dictionary </h2>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -124,6 +125,9 @@ const styles: Record<string, React.CSSProperties> = {
     placeItems: "center",
     padding: 24,
     fontFamily: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+
+    border:"1px solid #ddd",
+    borderRadius: 14,
   },
   form: {
     display: "flex",
@@ -201,7 +205,7 @@ const styles: Record<string, React.CSSProperties> = {
     cursor: "pointer",
     background: "#14532d",
     color: "#fff",
-    justifySelf: "start",
+    justifySelf: "end",
   },
   muted: {
     color: "#666",
