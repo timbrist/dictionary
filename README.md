@@ -1,5 +1,5 @@
 # Dictionary
-A dictionary website using react js and firebase.  
+A dictionary website using react ts and firebase.  
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/timbrist/Dictionary/README.md)
 
